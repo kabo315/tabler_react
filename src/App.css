@@ -30,3 +30,37 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-badge{
+  padding:7px !important;
+  min-width: 70px;
+}
+.yellow-star {
+  color:#F1C624;
+  font-size: 20px
+}
+.speed-donut {
+  position: relative;
+  top:2.2rem;
+  margin-top: -15px;
+}
+.growth-row {
+  display: flex;
+  flex-direction: row;
+}
+.growth-num {
+  font-size: 20px
+}
+.growth-diff {
+  position: relative;
+  font-size: 14px;
+  top: -8px;
+  left: 5px;
+}
+.diff-up {
+  color:#61B821
+}
+.diff-down {
+  color:#B83C21
+}
+
