@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage"
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import HomePage from './pages/HomePage'
+import SettingPage from './pages/SettingPage'
 import './App.css'
 import "tabler-react/dist/Tabler.css";
 
@@ -17,6 +18,7 @@ class App extends React.Component {
             <Route exact path="/register" component={RegisterPage} />
             <Route exact path="/forgot-password" component={ForgotPasswordPage} />
             <Route exact path="/home" component={HomePage} />
+            <Route exact path="/setting" component={SettingPage} />
           </Switch>
         </Router>
      

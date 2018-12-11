@@ -31,6 +31,25 @@
   }
 }
 
+.cus-card-footer {
+  padding: 0 !important;
+}
+
+.card-star {
+  color:#F1C624;
+  position: absolute;
+  top: 10px;
+  left:10px
+}
+.card-gear {
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+.view-icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
 .custom-badge{
   padding:7px !important;
   min-width: 70px;
@@ -49,12 +68,12 @@
   flex-direction: row;
 }
 .growth-num {
-  font-size: 20px
+  font-size: 15px
 }
 .growth-diff {
   position: relative;
-  font-size: 14px;
-  top: -8px;
+  font-size: 12px;
+  top: -6px;
   left: 5px;
 }
 .diff-up {

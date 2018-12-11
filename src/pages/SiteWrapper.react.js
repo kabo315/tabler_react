@@ -13,7 +13,7 @@ import {
 } from "tabler-react";
 
 const navBarItems = [
-  { value: "Manage", to: "/", LinkComponent: withRouter(NavLink) },
+  { value: "Manage", to: "/home", LinkComponent: withRouter(NavLink) },
   {
     value: "Shop",
     // icon: "box",
@@ -96,7 +96,7 @@ const navBarItems = [
 
 const accountDropdownProps = {
   avatarURL: "./assets/imgs/mine.png",
-  name: "Cosmos_flowser",
+  name: "Cosmos_flower",
   description: "General Manager",
   options: [
     { icon: "user", value: "Admin settings" },
